@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int arr[5];
+	int i;
+	for (int i = 0; i < 5; i++){
+		cin >> arr[i];
+	}
+	int linearsearch = 13;
+	for (int i = 0; i < 5; i++){
+		if (arr[i] == linearsearch){
+			cout << "element found" << endl;
+	}
+	//	else
+		//	cout << "element not found" << endl;
+
+		}
+	return 0;
+	}
